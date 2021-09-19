@@ -1,4 +1,4 @@
-package com.abdallah_abdelazim.moviediscover
+package com.abdallah_abdelazim.moviediscover.ui.movieslist
 
 import android.os.Bundle
 import android.view.LayoutInflater
