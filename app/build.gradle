@@ -61,7 +61,9 @@ dependencies {
         exclude module: 'okhttp'
     }
     implementation "com.squareup.retrofit2:converter-moshi:2.9.0"
+    implementation "com.squareup.retrofit2:adapter-rxjava3:2.9.0"
     implementation "com.squareup.moshi:moshi-kotlin:1.12.0"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     kapt "com.squareup.moshi:moshi-kotlin-codegen:1.12.0"
     implementation(platform("com.squareup.okhttp3:okhttp-bom:4.9.0"))
     implementation "com.squareup.okhttp3:okhttp"
@@ -75,7 +77,6 @@ dependencies {
     implementation "io.reactivex.rxjava3:rxjava:3.1.1"
     implementation "io.reactivex.rxjava3:rxkotlin:3.0.1"
     implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
-    implementation "com.github.akarnokd:rxjava3-retrofit-adapter:3.0.0"
 
     // Testing
     testImplementation 'junit:junit:4.13.2'
